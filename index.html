@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Matching Game</title>
     <link rel="stylesheet" href="./style.css">
+    
+
 </head>
 <body>
     <div id="userInfo">
         <input type="text" id="usernameInput" placeholder="Enter your username">
-        <button id="startButton">Start Game</button>
-        <button onclick="window.location.href='instructions.html';">How to Play</button> <!-- How to Play button -->
+        <button id="startButton" class="btn btn-primary">Start Game</button>
+         <button onclick="window.location.href='instructions.html';">How to Play</button> 
     </div>
-    <div id="userDisplay">Player: </div>
-    <div id="scoreDisplay">Score: 0</div>
-    <div id="timerDisplay">Time: 00:00</div>
+    <div>
+    
+        <div id="highScoreDisplay" class="indicators"></div>
+        <div id="userDisplay" class="indicators"></div>
+        <div id="scoreDisplay" class="indicators"></div>
+        <div id="timerDisplay" class="indicators"></div>
+
+</div>
  <div id="gameContainer" class="game-container"></div>
     <script src="./script.js"></script>
 </body>

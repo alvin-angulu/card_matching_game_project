@@ -1,3 +1,6 @@
+
+///IGNORE THIS FILE!!!!
+
 document.addEventListener('DOMContentLoaded', () => {
     // Get the game container element by its ID
     const gameContainer = document.getElementById('gameContainer');
